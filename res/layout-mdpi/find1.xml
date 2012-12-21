@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/find">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="70dp">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specimen Code"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/f1editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/edittext_rounded_corners"
+       android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country Name"
+    android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <EditText
+        android:id="@+id/f1editText2"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specimen Name"
+        android:layout_marginLeft="30dp"
+    android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+        android:id="@+id/f1editText3"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genus"
+    android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+        android:id="@+id/f1editText4"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+      
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" 
+        android:layout_marginTop="90dp">
+
+        <Button
+            android:id="@+id/f1clear"
+            style="@style/NewButton.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/f1find"
+            style="@style/NewButton.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Find" />
+
+        <Button
+            android:id="@+id/f1home"
+            style="@style/NewButton.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Home" />
+    </LinearLayout>
+
+</LinearLayout></ScrollView>

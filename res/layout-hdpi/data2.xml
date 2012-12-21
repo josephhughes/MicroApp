@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/step2">
+     <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+        android:id="@+id/step1btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/step1d" />
+        <ImageButton
+        android:id="@+id/step2btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/step2b" />
+        <ImageButton
+        android:id="@+id/step4btn2"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/step4d" />
+    </LinearLayout>
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="320dp"
+    android:id="@+id/sv2"
+    android:layout_marginTop="15dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"   >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SpecimenCode"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	 <EditText
+        android:id="@+id/d2et1"
+        android:singleLine="true"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ExtractionCode"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:background="@drawable/edittext_rounded_corners"
+        android:id="@+id/d2et2"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <EditText
+        android:id="@+id/d2et3"
+        android:singleLine="true"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dates Extracted"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <Button
+         android:id="@+id/d2date1"
+         
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="DD/MM/YY"
+            style="@style/NewButton.Button"
+          android:layout_marginLeft="35dp" />
+
+       
+    
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <EditText
+        android:id="@+id/d2et5"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendToExtraction"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <ToggleButton
+         android:id="@+id/d2tbtn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textOn="Yes"
+			android:textOff="No"
+			
+         android:layout_marginLeft="20dp"
+         android:text="ToggleButton" />
+       </LinearLayout>
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BoxNo"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+        android:background="@drawable/edittext_rounded_corners"
+        android:id="@+id/d2et6"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BoxRow"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+        android:id="@+id/d2et7"
+        android:singleLine="true"
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BoxColumn"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+      <EditText
+        android:id="@+id/d2et8"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+         android:background="@drawable/edittext_rounded_corners"
+               android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout></ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/d2save"
+            android:layout_width="wrap_content"
+         style="@style/NewButton.Button"           
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Save" />
+        <Button
+            android:id="@+id/d2submit"
+         style="@style/NewButton.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Submit" />
+                <Button
+            android:id="@+id/d2find"
+         style="@style/NewButton.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            
+            android:text="Find" />        
+    </LinearLayout>
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/d2step1"
+            android:layout_width="wrap_content"
+         style="@style/NewButton.Button"           
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Step1" />
+        <Button
+            android:id="@+id/d2Home"
+         style="@style/NewButton.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Home" />
+        <Button
+            android:id="@+id/d2clear"
+            android:layout_width="wrap_content"
+         style="@style/NewButton.Button"           
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Clear" />
+                <Button
+            android:id="@+id/d2step4"
+         style="@style/NewButton.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            
+            android:text="Step4" />        
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

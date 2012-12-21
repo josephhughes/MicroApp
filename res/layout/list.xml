@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+                <TextView
+            android:id="@+id/ltextView25" 
+               android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="timestamp" />
+                <TextView
+            android:id="@+id/ltextView1"
+                android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="specimencode" />
+        
+        <TextView
+            android:id="@+id/ltextView2" 
+               android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="genus" />
+<TextView
+            android:id="@+id/ltextView3"
+               android:layout_width="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="specimenname" />
+        <TextView
+            android:id="@+id/ltextView4"
+                android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="authority" />
+<TextView
+            android:id="@+id/ltextView5"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="boxno" />
+        <TextView
+            android:id="@+id/ltextView6"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="boxrow" />
+<TextView
+            android:id="@+id/ltextView7"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="boxcolumn" />
+        <TextView
+            android:id="@+id/ltextView8"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="hostgenus" />
+<TextView
+            android:id="@+id/ltextView9"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="hostspecimen" />
+        <TextView
+            android:id="@+id/ltextView10"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="locality" />
+<TextView
+            android:id="@+id/ltextView11"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="latitude" />
+        <TextView
+            android:id="@+id/ltextView12"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="longitude" />
+<TextView
+            android:id="@+id/ltextView13"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="district" />
+        <TextView
+            android:id="@+id/ltextView14"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="province" />
+<TextView
+            android:id="@+id/ltextView15"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="country" />
+        <TextView
+            android:id="@+id/ltextView16"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="determinedby" />
+<TextView
+            android:id="@+id/ltextView17"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="collectedby" />
+        <TextView
+            android:id="@+id/ltextView18"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="datacollected" />
+<TextView
+            android:id="@+id/ltextView19"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="collectionnotes" />
+        <TextView
+            android:id="@+id/ltextView20"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="notes" />
+<TextView
+            android:id="@+id/ltextView21"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="stagesex" />
+        <TextView
+            android:id="@+id/ltextView22"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="abundance" />
+<TextView
+            android:id="@+id/ltextView23"    android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="comment" />
+<TextView
+            android:id="@+id/ltextView24"   
+             android:layout_marginLeft="5dp"
+               android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="username" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        
+ 
+</LinearLayout>

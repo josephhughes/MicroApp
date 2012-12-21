@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/step4">
+     <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+        android:id="@+id/step1btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/step1d" />
+        <ImageButton
+        android:id="@+id/step2btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/step2d" />
+        <ImageButton
+        android:id="@+id/step4btn4"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/step4b" />
+    </LinearLayout>
+<ScrollView
+   android:layout_width="fill_parent"
+    android:layout_height="240dp" 
+    android:layout_marginTop="10dp"
+    android:id="@+id/sv4">
+    <LinearLayout 
+         android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ExtractedSample"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+ android:background="@drawable/edittext_rounded_corners"
+               android:id="@+id/d4et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PrimerPair"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:background="@drawable/edittext_rounded_corners"
+        android:id="@+id/d4et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DateOfInput"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <Button
+           android:id="@+id/d4date1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="DD/MM/YY"
+           style="@style/NewButton.Button"
+           android:layout_marginLeft="35dp" />
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Succefull"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:background="@drawable/edittext_rounded_corners"
+        android:id="@+id/d4et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendToSequencing"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <ToggleButton
+           android:id="@+id/d4toggleButton1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:text="ToggleButton" />
+       
+</LinearLayout>
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DateOfSendToSequncing"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <Button
+           android:id="@+id/d4date2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="DD/MM/YY"
+           style="@style/NewButton.Button"
+           android:layout_marginLeft="35dp" />
+       
+       </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/d4save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+         style="@style/NewButton.Button"
+            android:text="Save" />
+        <Button
+            android:id="@+id/d4submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+         style="@style/NewButton.Button"
+            android:text="Submit" />
+                <Button
+            android:id="@+id/d4find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+         style="@style/NewButton.Button"
+            
+            android:text="Find" />        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="10dp">
+		<Button
+            android:id="@+id/d4step1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+         style="@style/NewButton.Button"
+             android:text="Step2" />
+             <Button
+            android:id="@+id/d4clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+         style="@style/NewButton.Button"
+            android:text="Clear" />
+               <Button
+            android:id="@+id/d4home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+         style="@style/NewButton.Button"
+            android:text="Home" />
+ 
+                        
+    </LinearLayout>
+
+
+</LinearLayout>
